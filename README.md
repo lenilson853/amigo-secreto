@@ -50,4 +50,4 @@ Este projeto **não usa bibliotecas externas**. É só abrir o HTML no navegador
 
 1. Faça o download ou clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.gi
+   git clone https://github.com/lenilson853/amigo-secreto
