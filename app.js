@@ -12,7 +12,7 @@ function atualizarLista(){
     for (let amigo of amigos){
         //3. para cada amigo, cria um elemento <li> e o adiciona ao HTML da lista 
         //Usamos '+=' para adicionar o novo item sem apagar os que ja foram adicionados neste loop
-        listaHTML.innerHTML+=`<li>${amigos}<li>`;
+        listaHTML.innerHTML+=`<li>${amigo}<li>`;
     }
 }
 
@@ -55,7 +55,7 @@ function sortearAmigo(){
 
     // 4. Mostrar o resultado na tela
     const elementoResultado = document.getElementById('resultado');
-    elementoResultado.innerHTML = `O amigo sorteado foi: <strong>${amigoSorteado}</strong>`;
+    elementoResultado.innerHTML = `<li>O amigo sorteado foi: <strong>${amigoSorteado}</strong></li>`;
 }
 
 // Função para reiniciar (adicionado o botão no HTML para ela)
